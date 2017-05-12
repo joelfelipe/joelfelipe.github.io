@@ -1,2 +1,2 @@
-# listapeoo
-Lista da Disciplina de PEOO
+# listaed1
+Lista da Disciplina de ED1
