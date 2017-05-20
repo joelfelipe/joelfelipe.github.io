@@ -159,7 +159,7 @@ void deletarLista(ListaCabeca* lista){
 
 int main(){
 
-    //TESTANDO FUNÇÕES
+    //TESTANDO FUNÃ‡Ã•ES
 
     cout << "*Criando e imprimindo Lista Circular Vazia\n" << endl;
 
@@ -224,7 +224,7 @@ int main(){
 
     cout << "\n*Deletando Lista. Desalocando todos os nodes e a cabeca." << endl;
 
-    //deletarLista(lista);
+    deletarLista(lista);
 
     return 0;
 }
