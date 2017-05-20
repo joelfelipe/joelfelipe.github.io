@@ -50,6 +50,7 @@ int inserirElemento(Lista* lista, Cliente cliente, int posicao){
 		}
 		if(atual == *lista){
 			aux->ant = NULL;
+			(*lista)->ant=aux;
 			aux->prox = (*lista);
 			*lista = aux;
 		}else{
