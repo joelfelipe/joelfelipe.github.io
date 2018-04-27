@@ -10,22 +10,84 @@
 		<link href="css/main.css" rel="stylesheet">
 		<link href="css/footer.css" rel="stylesheet">
 		<script src="js/bootstrap.js"></script>
-		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style>
+			body {
+			  position: relative; 
+			}
+			.affix {
+			  top:0;
+			  width: 100%;
+			  z-index: 9999 !important;
+			}
+			.navbar {
+			  margin-bottom: 0px;
+			}
+
+			.affix ~ .container-fluid {
+			 position: relative;
+			 top: 50px;
+			}
+			#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+			#section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+			#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+			#section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+			#section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+		 </style>
 		
 	</head>
 	<body>
 		<header class="container">
+			<!--<nav class="navbar navbar" data-spy="affix" data-offset-top="197">
+				<a class="btn btn-default align-center" href="#educacao"><span class="glyphicon glyphicon-education"></span> Educação</a>
+				<a class="btn btn-default align-center" href="#profissional"><span class="glyphicon glyphicon-briefcase"></span> Vida profissional</a>
+				<a class="btn btn-default align-center" href="#cursos"><span class="glyphicon glyphicon-pencil"></span> Cursos</a>
+				<a class="btn btn-default align-center" href="#contato"><span class="glyphicon glyphicon-earphone"></span> Contato</a> 
+			</nav>-->
 		</header>
-		<div id="principal" class="container">
-			<aside id="container-img" class="col-md-4">
+		<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="400">
+		  <div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>			  
+			  </button>
+			</div>
+			<div>
+			  <div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+				  <li><a href="#educacao"><span class="glyphicon glyphicon-education"></span> Educação</a></li>
+				  <li><a href="#profissional"><span class="glyphicon glyphicon-briefcase"></span> Vida profissional</a></li>
+				  <li><a href="#cursos"><span class="glyphicon glyphicon-pencil"></span> Cursos</a></li>
+				  <li><a href="#contato"><span class="glyphicon glyphicon-earphone"></span> Contato</a></li>
+				  <!--<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+					  <li><a href="#section41">Section 4-1</a></li>
+					  <li><a href="#section42">Section 4-2</a></li>
+					</ul>
+				  </li>-->
+				</ul>
+			  </div>
+			</div>
+		  </div>
+		</nav>
+		
+		
+		<div id="principal" class="container-fluid">
+			<div id="container-img" class="col-md-4">
 				<img src="img/computacao.jpg" alt="Foto Joel Felipe" title="Foto Joel Felipe" /> <br/>
-				<nav class="btn-group-vertical" data-spy="scroll">
+				<!--<nav class="btn-group-vertical" data-spy="scroll">
 					<a class="btn btn-default align-left" href="#educacao"><span class="glyphicon glyphicon-education"></span> Educação</a>
 					<a class="btn btn-default align-left" href="#profissional"><span class="glyphicon glyphicon-briefcase"></span> Vida profissional</a>
 					<a class="btn btn-default align-left" href="#cursos"><span class="glyphicon glyphicon-pencil"></span> Cursos</a>
 					<a class="btn btn-default align-left" href="#contato"><span class="glyphicon glyphicon-earphone"></span> Contato</a> 
-				</nav>
-			</aside>
+				</nav>-->
+			</div>
 			<div class="col-md-8">
 				<h1>Joel Felipe Araujo Damasceno</h1>
 				<p>Brasileiro, solteiro, 25 anos</p>
