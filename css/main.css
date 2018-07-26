@@ -17,7 +17,7 @@ p {
 
 #principal img {
 	width: 20em;
-	border-radius: 50%;
+	border-radius: 20%;
 	box-shadow: 5px 2px 2px #ccc;
 	margin: 3px 0px;
 }
