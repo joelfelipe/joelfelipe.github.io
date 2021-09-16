@@ -1,0 +1,67 @@
+* {
+	transition-duration: .3s;
+	font-family: 'Quicksand', sans-serif;
+}
+
+p {
+	font-size: 18px;
+}
+
+#container-img{
+	text-align: center;
+}
+
+#principal {
+	padding-top: 20px;
+}
+
+#principal img {
+	width: 20em;
+	border-radius: 20%;
+	box-shadow: 5px 2px 2px #ccc;
+	margin: 3px 0px;
+}
+
+li {
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+	font-size: 3em;
+	border-bottom: solid 1px #ccc;
+	padding-left: 10px;
+}
+
+nav {
+	padding-top: 20px;
+}
+
+nav a:not(:first-child){
+
+}
+
+.data {
+	color: #777;
+}
+
+section hr {
+	margin: 20px 100px;
+}
+
+@media only screen and (max-width: 500px) {
+	#principal img {
+		width: 100%;
+		border-radius: 0px;
+	}
+}
+
+
+@media only screen and (max-width: 500px) {
+	nav a {
+
+	}
+}
