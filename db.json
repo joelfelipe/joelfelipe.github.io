@@ -19,28 +19,10 @@
   ],
   "trabalho": [
     {
-      "cargo": "Desenvolvedor Web (Angular)",
-      "local": "Dell Lead",
-	  "duracao": "Ago, 2021 - Atualmente",
-	  "comentario": "Construir aplicação frontend utilizando Angular 8+ com integração via REST API. Realizar atividades seguindo em metodologia ágil. Trabalhar em projeto com equipe multidisciplinar. Participar de reuniões com o cliente. Aptidão à cultura de agilidade e feedbacks."
-    },
-	{
-      "cargo": "Analista de Sistemas Java",
-      "local": "Engesoftware/BNB",
-	  "duracao": "Abr, 2020 - Ago, 2021",
-	  "comentario": "Atuação na equipe de incidentes de sistemas de crédito. Desenvolvimento/Manutenção de ferramentas em Angular/Java para atuação da equipe e controle de incidentes. Análise e Investigação de incidentes dos sistemas em JAVA para elaboração de soluções. Atuação de manutenção direta nas bases SQL e DB2"
-    },
-	{
-      "cargo": "Desenvolvedor Web (Estágio)",
-      "local": "Aspec Informática",
-	  "duracao": "Out, 2019 - Apr, 2020",
-	  "comentario": "Manutenção, Criação e Evolução dos Sistemas WEB da empresa, Intranet e Website, utilizando: WordPress, Java, JS, Spring Boot e Angular"
-    },
-	{
-      "cargo": "Auxiliar de Governaça de TI (Estágio)",
-      "local": "Banco do Nordeste do Brail (BNB)",
-	  "duracao": "Out, 2017 - Out, 2019",
-	  "comentario": "Gerar relatórios com o Microsoft Excel e Power BI (Business Intelligence). Atender demandas para liberação de acessos e criação de matrículas. Consultar entregas no banco de dados (ClearQuest e Access). Testar funcionalidades de alguns sistemas internos. Dar suporte à governança de TI de modo geral"
+      "cargo": "Especialista Técnico de TI - Desenvolvedor",
+      "local": "BNB",
+	  "duracao": "Jul, 2023 - Atualmente",
+	  "comentario": "Desenvolvedor full-stack trabalhando atualmente com tecnologias .NET e React."
     }
   ],
   "habilidades": [
@@ -66,7 +48,7 @@
     },
 	{
       "name": "C#",
-      "porcentagem": 60
+      "porcentagem": 90
     },
 	{
       "name": "Python",
@@ -79,11 +61,11 @@
   ],
   "perfil": {
     "nome": "Joel Felipe Araujo Damasceno",
-	"idade": 29,
+	"idade": 30,
 	"email": "joelfelipe@gmail.com",
-	"telefone": "+55 (85) 9 8801-6475 (Wpp)",
+	"telefone": null,
 	"endereco": "Fortaleza/CE - Brasil",
-	"sobre": "Olá! Me chamo Joel Felipe. Sou graduado em Ciência da Computação pela UECE (Universidade Estadual do Ceará) e atualmente sou Desenvolvedor Web na Dell Lead. Estou sempre em busca de conhecimento para desenvolver a cada dia mais minha carreira profissional.",
+	"sobre": "Olá! Me chamo Joel Felipe. Sou graduado em Ciência da Computação pela UECE (Universidade Estadual do Ceará).",
 	"form": "https://formspree.io/f/mgerdkyl",
 	"cvlink": "https://raw.githubusercontent.com/joelfelipe/fakeapiteste/master/cv-joel.pdf",
 	"img": "https://raw.githubusercontent.com/joelfelipe/fakeapiteste/master/avatar.png"
